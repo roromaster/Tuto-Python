@@ -1,8 +1,12 @@
 import pygame
 
+#Init Pygame module
 pygame.init()
+
+#Get screen
 screen = pygame.display.set_mode((400,400))
 
+#endless loop variable set to true
 running = True
 
 image = pygame.image.load("ball.png").convert()
